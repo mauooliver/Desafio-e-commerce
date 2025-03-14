@@ -77,11 +77,6 @@ if login == cadastro['crie_login'] and senha == cadastro['crie_senha']:
     print('---' * 9)
     pag1 = int(input('Escolha a partir do indice: '))
     print('---' * 9)
-    pag = {
-        'forma' : 0,
-    }
-    pag['forma'] = pag1
-    print(pag)
 
 else:
     print('Acesso negado, Senha ou login errado')
